@@ -1,0 +1,4 @@
+$(eval $(call addlib,apprsakeygen))
+APPRSAKEYGEN_SRCS-y += $(APPRSAKEYGEN_BASE)/io.c
+APPRSAKEYGEN_SRCS-y += $(APPRSAKEYGEN_BASE)/rsa-keygen.c
+

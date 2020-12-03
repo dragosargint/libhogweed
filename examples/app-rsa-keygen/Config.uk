@@ -1,0 +1,5 @@
+### Invisible option for dependencies
+config APPRSAKEYGEN_DEPENDENCIES
+	bool
+	default y
+

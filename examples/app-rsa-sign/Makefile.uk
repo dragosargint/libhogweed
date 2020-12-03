@@ -1,0 +1,4 @@
+$(eval $(call addlib,apprsasign))
+APPRSASIGN_SRCS-y += $(APPRSASIGN_BASE)/io.c
+APPRSASIGN_SRCS-y += $(APPRSASIGN_BASE)/rsa-sign.c
+APPRSASIGN_SRCS-y += $(APPRSASIGN_BASE)/read_rsa_key.c

@@ -1,0 +1,5 @@
+### Invisible option for dependencies
+config APPRSASIGN_DEPENDENCIES
+	bool
+	default y
+
