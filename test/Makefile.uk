@@ -1,0 +1,2 @@
+$(eval $(call addlib,test))
+TEST_SRCS-y += $(TEST_BASE)/main.c
